@@ -7,7 +7,7 @@
 <style>
 body{
   margin:0;
-  padding:48px 24px;
+  padding:24px 24px 48px;
   background:#fff;
   color:#000;
   font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",sans-serif;
@@ -15,26 +15,35 @@ body{
   line-height:2;
 }
 h1{
-  font-size:17px;
-  font-weight:400;
-  margin:0 0 24px;
+  font-size:30px;
+  font-weight:500;
+  line-height:1.4;
+  text-align:center;
+  margin:0 0 20px;
+  letter-spacing:.08em;
 }
-details{margin:0 0 14px}
+details{
+  margin:0;
+  padding:0;
+}
 summary{
   cursor:pointer;
   font-size:17px;
   line-height:2;
   outline-offset:2px;
 }
-details[open] summary{margin-bottom:10px}
 .body{
   font-size:15px;
   line-height:1.95;
   color:#333;
   padding-left:4px;
+  margin:6px 0 0;
 }
+.body p{margin:0 0 8px}
+.body p:last-child{margin-bottom:0}
 @media (max-width:480px){
-  body{padding:40px 18px}
+  body{padding:18px 18px 40px}
+  h1{font-size:24px;margin-bottom:14px}
 }
 </style>
 </head>
