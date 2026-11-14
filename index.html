@@ -14,11 +14,54 @@ body{
   font-size:17px;
   line-height:2;
 }
+h1{
+  font-size:17px;
+  font-weight:400;
+  margin:0 0 24px;
+}
+details{margin:0 0 14px}
+summary{
+  cursor:pointer;
+  font-size:17px;
+  line-height:2;
+  outline-offset:2px;
+}
+details[open] summary{margin-bottom:10px}
+.body{
+  font-size:15px;
+  line-height:1.95;
+  color:#333;
+  padding-left:4px;
+}
+@media (max-width:480px){
+  body{padding:40px 18px}
+}
 </style>
 </head>
 <body>
-<p>公告</p>
-<p>一、考试提醒</p>
-<p>二、封楼调课通知</p>
+
+<h1>公告</h1>
+
+<details>
+  <summary>一、考试提醒</summary>
+  <div class="body">
+    <p>本周末进行计算机等级考试。请已报名考生自行打印准考证，核对姓名、证件号码、考试科目、场次与考场位置；信息有误的，须在开考前联系教务办公室更正。</p>
+    <p>考生须携带准考证与有效身份证件入场，两证缺一不得进入考场。开考前请预留身份核验与安检时间，建议提前 30 分钟到达考场所在楼层等候。</p>
+    <p>考试期间严禁携带手机、智能手表、耳机等电子设备及与考试无关的物品进入考场，全程遵守考场纪律，不得交头接耳、传递资料或替考。</p>
+    <p>考试结束后按监考人员指引有序离场，不在楼道及楼前聚集喧哗。</p>
+  </div>
+</details>
+
+<details>
+  <summary>二、封楼调课通知</summary>
+  <div class="body">
+    <p>各系部：本周四号楼承接计算机等级考试，本周末封楼。封楼期间四号楼各出入口实行管控，不对外开放。</p>
+    <p>封楼期间不安排教学活动、自习、社团活动及其他非考试用途，请勿在楼内停留或存放贵重物品。</p>
+    <p>原定于封楼时段在四号楼开展的课程与实训，由各系部调整至其他教学楼或改为线上授课；调整方案须于封楼前报教务办公室备案，并及时通知到每一位学生。</p>
+    <p>各系部应配合做好人员疏导，提前告知学生封楼安排；考试期间请勿在四号楼周边组织集体活动或使用扩音设备。</p>
+    <p>封楼期间确需进入四号楼处理紧急事务的，联系教务办公室办理临时通行。</p>
+  </div>
+</details>
+
 </body>
 </html>
